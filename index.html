@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Infinite runner game</title>
+   
+    <script src="p5.play.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyA8ya-9Oz_CnTbvveVzVsfqG8yJS8FSon8",
+    authDomain: "infinite-runner-game-9ae1f.firebaseapp.com",
+    databaseURL: "https://infinite-runner-game-9ae1f.firebaseio.com",
+    projectId: "infinite-runner-game-9ae1f",
+    storageBucket: "infinite-runner-game-9ae1f.appspot.com",
+    messagingSenderId: "985290357702",
+    appId: "1:985290357702:web:402c00ad4f5bffa49850c7"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+    <script src="js/Player.js"></script>
+    <script src="js/Form.js"></script>
+    <script src="js/Game.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
